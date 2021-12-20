@@ -70,7 +70,6 @@ def get_data():
 
 app = Flask(__name__)
 
-info = get_data()
 
 @app.route('/')
 def home():
